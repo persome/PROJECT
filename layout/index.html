@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TAILWIND</title>
+</head>
+
+<body class="bg-gray-200">
+
+    <!-- NAVIGATION BAR -->
+    <div class="flex justify-around items-baseline bg-gray-300">
+
+        <!-- LOGO SECTION -->
+        <div class=" ">
+            <div class="-left-24 relative p-4 text-3xl text-stone-700 font-sans font-extrabold drop-shadow-sm transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-black">
+                Sellme
+            </div>
+        </div>
+
+        <!-- THE HOME, ABOUT, CONTACTS SECTION -->
+        <div class="space-x-10 flex flex-row">
+            <div class="transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-emerald-500 hover:font-semibold">home</div>
+            <div class="transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-emerald-500 hover:font-semibold">about</div>
+            <div class="transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-emerald-500 hover:font-semibold">contacts</div>
+        </div>
+
+
+        <div class=" p-0 space-x-0 flex flex-row relative -right-20">
+            <!-- SEARCH SECTION -->
+            <div class="p-3">
+                <form action="" class="relative mx-auto w-max -top-0">
+                    <input type="search" class="ransition ease-in duration-200 peer cursor-pointer relative z-10 h-10 rounded-full border-slate-400 bg-transparent pl-19 outline-none w-full focus:cursor-text hover:border-black pl-16 hover:pr-4 focus:border-transparent focus:border-0"
+                    />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-y-0 my-auto h-8 w-12 border-r border-transparent stroke-gray-500 px-3.5 peer-focus:border-slate-500 peer-focus:stroke-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </form>
+            </div>
+
+            <!-- SIGN UP AND LOGIN SECTION -->
+            <div class="p-4 transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-red-400 hover:font-bold">signup</div>
+            <div class="p-4 transition ease-in duration-100 hover:ease-in hover:cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:subpixel-antialiased hover:text-emerald-400 hover:font-bold">login</div>
+        </div>
+    </div>
+</body>
+
+</html>
