@@ -688,6 +688,10 @@ select {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -918,8 +922,22 @@ select {
   padding-right: 2rem;
 }
 
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pl-16 {
   padding-left: 4rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-sans {
@@ -1025,15 +1043,6 @@ select {
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.hover\:from-yellow-500:hover {
-  --tw-gradient-from: #eab308;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(234 179 8 / 0));
-}
-
-.hover\:to-pink-500:hover {
-  --tw-gradient-to: #ec4899;
 }
 
 .hover\:pr-4:hover {
